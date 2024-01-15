@@ -1,4 +1,35 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://lukas-tietenberg.dev/'
 languageCode = 'en-us'
 title = 'Lukas Tietenberg'
-theme = 'ananke'
+theme = 'hugo-bearcub'
+
+[params]
+author = "Lukas Tietenberg"
+description = "Developer stuff"
+
+# code highlighting
+highlightjs = true
+highlightjsstyle = "github"
+
+license = "CC BY-SA 4.0"
+licenseURL = "https://creativecommons.org/licenses/by-sa/4.0"
+showBuiltWith = false
+
+[params.social]
+github = "sourcefranke"
+xing = "Patrick_Drechsler"
+email = "info@lukas-tietenberg.dev"
+
+[[menu.main]]
+identifier = "about"
+name = "about"
+title = "about"
+url = "/about"
+weight = 120
+
+[[menu.main]]
+identifier = "impressum"
+name = "impressum"
+title = "impressum"
+url = "/impressum"
+weight = 130
