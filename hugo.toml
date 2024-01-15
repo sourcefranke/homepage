@@ -1,7 +1,7 @@
 baseURL = 'https://lukas-tietenberg.dev/'
 languageCode = 'en-us'
 title = 'Lukas Tietenberg'
-theme = 'hugo-bearcub'
+theme = 'hugo-liftoff'
 
 [params]
 author = "Lukas Tietenberg"
